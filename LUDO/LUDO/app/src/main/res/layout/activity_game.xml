@@ -12,47 +12,45 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
         android:layout_marginTop="20dp"
-        >
+        android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:src="@drawable/circle"
             android:id="@+id/player1"
-            />
-        <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/circle"
+            android:src="@drawable/circle" />
+
+        <ImageView
             android:id="@+id/player2"
-            />
-        <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/circle"
+            android:src="@drawable/circle" />
+
+        <ImageView
             android:id="@+id/player3"
-            />
-        <ImageView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:src="@drawable/circle"
+            android:src="@drawable/circle" />
+
+        <ImageView
             android:id="@+id/player4"
-            />
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/circle" />
 
     </LinearLayout>
 
-    <com.technic321.myludo.CanvasBoardDraw
+    <com.example.ludo.CanvasBoardDraw
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/custom_canvas_1"
         android:layout_gravity="center"
-        />
+        tools:ignore="MissingClass" />
 
     <ImageView
         android:layout_width="wrap_content"
