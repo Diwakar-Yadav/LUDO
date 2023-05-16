@@ -176,7 +176,17 @@ public class Game extends Activity implements View.OnClickListener {
                 g3 = 0;
                 x7 = 14;
                 break;
-            
+            case R.id.green4:
+                iv8.getLayoutParams().height = d;
+                iv8.getLayoutParams().width = d;
+                RelativeLayout.LayoutParams mParams4 = (RelativeLayout.LayoutParams) iv8.getLayoutParams();
+                mParams4.leftMargin = 11 * d + 3 * d / 2;
+                mParams4.topMargin = 2 * d + top + 3 * d / 2;
+                iv8.setLayoutParams(mParams4);
+                g4 = 0;
+                x8 = 14;
+                break;
+
         }
     }
 
