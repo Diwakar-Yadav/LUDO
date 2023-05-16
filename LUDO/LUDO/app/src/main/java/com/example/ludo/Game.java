@@ -105,7 +105,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams1.leftMargin = 3 * d / 2;
                 mParams1.topMargin = top + 3 * d / 2;
                 iv1.setLayoutParams(mParams1);
-                r1 = 0;x1=1;
+                r1 = 0;
+                x1 = 1;
                 break;
             case R.id.red2:
                 iv2.getLayoutParams().height = d;
@@ -114,7 +115,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams2.leftMargin = 2 * d + 3 * d / 2;
                 mParams2.topMargin = top + 3 * d / 2;
                 iv2.setLayoutParams(mParams2);
-                r2 = 0;x2=1;
+                r2 = 0;
+                x2 = 1;
                 break;
             case R.id.red3:
                 iv3.getLayoutParams().height = d;
@@ -123,7 +125,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams3.leftMargin = 3 * d / 2;
                 mParams3.topMargin = 2 * d + top + 3 * d / 2;
                 iv3.setLayoutParams(mParams3);
-                r3 = 0;x3=1;
+                r3 = 0;
+                x3 = 1;
                 break;
             case R.id.red4:
                 iv4.getLayoutParams().height = d;
@@ -132,7 +135,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams4.leftMargin = 2 * d + 3 * d / 2;
                 mParams4.topMargin = 2 * d + top + 3 * d / 2;
                 iv4.setLayoutParams(mParams4);
-                r4 = 0;x4=1;
+                r4 = 0;
+                x4 = 1;
                 break;
         }
 
@@ -149,7 +153,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams1.leftMargin = 9 * d + 3 * d / 2;
                 mParams1.topMargin = top + 3 * d / 2;
                 iv5.setLayoutParams(mParams1);
-                g1 = 0;x5=14;
+                g1 = 0;
+                x5 = 14;
                 break;
             case R.id.green2:
                 iv6.getLayoutParams().height = d;
@@ -158,7 +163,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams2.leftMargin = 11 * d + 3 * d / 2;
                 mParams2.topMargin = top + 3 * d / 2;
                 iv6.setLayoutParams(mParams2);
-                g2 = 0;x6=14;
+                g2 = 0;
+                x6 = 14;
                 break;
             case R.id.green3:
                 iv7.getLayoutParams().height = d;
@@ -167,7 +173,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams3.leftMargin = 9 * d + 3 * d / 2;
                 mParams3.topMargin = 2 * d + top + 3 * d / 2;
                 iv7.setLayoutParams(mParams3);
-                g3 = 0;x7=14;
+                g3 = 0;
+                x7 = 14;
                 break;
             case R.id.green4:
                 iv8.getLayoutParams().height = d;
@@ -176,7 +183,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams4.leftMargin = 11 * d + 3 * d / 2;
                 mParams4.topMargin = 2 * d + top + 3 * d / 2;
                 iv8.setLayoutParams(mParams4);
-                g4 = 0;x8=14;
+                g4 = 0;
+                x8 = 14;
                 break;
         }
     }
@@ -192,7 +200,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams1.leftMargin = 9 * d + 3 * d / 2;
                 mParams1.topMargin = 9 * d + top + 3 * d / 2;
                 iv9.setLayoutParams(mParams1);
-                b1 = 0;x9=27;
+                b1 = 0;
+                x9 = 27;
                 break;
             case R.id.blue2:
                 iv10.getLayoutParams().height = d;
@@ -201,7 +210,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams2.leftMargin = 11 * d + 3 * d / 2;
                 mParams2.topMargin = 9 * d + top + 3 * d / 2;
                 iv10.setLayoutParams(mParams2);
-                b2 = 0;x10=27;
+                b2 = 0;
+                x10 = 27;
                 break;
             case R.id.blue3:
                 iv11.getLayoutParams().height = d;
@@ -210,7 +220,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams3.leftMargin = 9 * d + 3 * d / 2;
                 mParams3.topMargin = 11 * d + top + 3 * d / 2;
                 iv11.setLayoutParams(mParams3);
-                b3 = 0;x11=27;
+                b3 = 0;
+                x11 = 27;
                 break;
             case R.id.blue4:
                 iv12.getLayoutParams().height = d;
@@ -219,7 +230,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams4.leftMargin = 11 * d + 3 * d / 2;
                 mParams4.topMargin = 11 * d + top + 3 * d / 2;
                 iv12.setLayoutParams(mParams4);
-                b4 = 0;x12=27;
+                b4 = 0;
+                x12 = 27;
                 break;
         }
     }
@@ -234,7 +246,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams1.leftMargin = 3 * d / 2;
                 mParams1.topMargin = 9 * d + top + 3 * d / 2;
                 iv13.setLayoutParams(mParams1);
-                y1 = 0;x13=40;
+                y1 = 0;
+                x13 = 40;
                 break;
             case R.id.yellow2:
                 iv14.getLayoutParams().height = d;
@@ -243,7 +256,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams2.leftMargin = 2 * d + 3 * d / 2;
                 mParams2.topMargin = 9 * d + top + 3 * d / 2;
                 iv14.setLayoutParams(mParams2);
-                y2 = 0;x14=40;
+                y2 = 0;
+                x14 = 40;
                 break;
             case R.id.yellow3:
                 iv15.getLayoutParams().height = d;
@@ -252,7 +266,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams3.leftMargin = 3 * d / 2;
                 mParams3.topMargin = 11 * d + top + 3 * d / 2;
                 iv15.setLayoutParams(mParams3);
-                y3 = 0;x15=40;
+                y3 = 0;
+                x15 = 40;
                 break;
             case R.id.yellow4:
                 iv16.getLayoutParams().height = d;
@@ -261,7 +276,8 @@ public class Game extends Activity implements View.OnClickListener {
                 mParams4.leftMargin = 2 * d + 3 * d / 2;
                 mParams4.topMargin = 11 * d + top + 3 * d / 2;
                 iv16.setLayoutParams(mParams4);
-                y4 = 0;x16=40;
+                y4 = 0;
+                x16 = 40;
                 break;
         }
     }
@@ -734,30 +750,30 @@ public class Game extends Activity implements View.OnClickListener {
                 break;
         }
 
-        if (iv1.getVisibility()==View.INVISIBLE && iv2.getVisibility()==View.INVISIBLE &&
-                iv3.getVisibility()==View.INVISIBLE && iv4.getVisibility()==View.INVISIBLE
-                ){
-            Intent in=new Intent(Game.this, GameOverRed.class);
+        if (iv1.getVisibility() == View.INVISIBLE && iv2.getVisibility() == View.INVISIBLE &&
+                iv3.getVisibility() == View.INVISIBLE && iv4.getVisibility() == View.INVISIBLE
+        ) {
+            Intent in = new Intent(Game.this, GameOverRed.class);
             startActivity(in);
         }
-        if (iv5.getVisibility()==View.INVISIBLE && iv6.getVisibility()==View.INVISIBLE &&
-                iv7.getVisibility()==View.INVISIBLE && iv8.getVisibility()==View.INVISIBLE
-                ){
-            Intent in=new Intent(Game.this, GameOverGreen.class);
+        if (iv5.getVisibility() == View.INVISIBLE && iv6.getVisibility() == View.INVISIBLE &&
+                iv7.getVisibility() == View.INVISIBLE && iv8.getVisibility() == View.INVISIBLE
+        ) {
+            Intent in = new Intent(Game.this, GameOverGreen.class);
             startActivity(in);
         }
-        if (iv9.getVisibility()==View.INVISIBLE && iv10.getVisibility()==View.INVISIBLE &&
-                iv11.getVisibility()==View.INVISIBLE && iv12.getVisibility()==View.INVISIBLE
-                ){
+        if (iv9.getVisibility() == View.INVISIBLE && iv10.getVisibility() == View.INVISIBLE &&
+                iv11.getVisibility() == View.INVISIBLE && iv12.getVisibility() == View.INVISIBLE
+        ) {
             //game won by playerthree
-            Intent in=new Intent(Game.this, GameOverBlue.class);
+            Intent in = new Intent(Game.this, GameOverBlue.class);
             startActivity(in);
         }
-        if (iv13.getVisibility()==View.INVISIBLE && iv14.getVisibility()==View.INVISIBLE &&
-                iv15.getVisibility()==View.INVISIBLE && iv16.getVisibility()==View.INVISIBLE
-                ){
+        if (iv13.getVisibility() == View.INVISIBLE && iv14.getVisibility() == View.INVISIBLE &&
+                iv15.getVisibility() == View.INVISIBLE && iv16.getVisibility() == View.INVISIBLE
+        ) {
             //game won by playerfour
-            Intent in=new Intent(Game.this, GameOverYellow.class);
+            Intent in = new Intent(Game.this, GameOverYellow.class);
             startActivity(in);
         }
     }
@@ -975,7 +991,221 @@ public class Game extends Activity implements View.OnClickListener {
 
     }
 
-   
+    public void TheCase(int p, ImageView pp) {
+        RelativeLayout.LayoutParams mParams = (RelativeLayout.LayoutParams) pp.getLayoutParams();
+        switch (p) {
+            case 1:
+                mParams.leftMargin = d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 2:
+                mParams.leftMargin = 2 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 3:
+                mParams.leftMargin = 3 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 4:
+                mParams.leftMargin = 4 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 5:
+                mParams.leftMargin = 5 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 6:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 5 * d;
+                break;
+            case 7:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 4 * d;
+                break;
+            case 8:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 3 * d;
+                break;
+            case 9:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 2 * d;
+                break;
+            case 10:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + d;
+                break;
+            case 11:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top;
+                break;
+            case 12:
+                mParams.leftMargin = 7 * d;
+                mParams.topMargin = top;
+                break;
+            case 13:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top;
+                break;
+            case 14:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + d;
+                break;
+            case 15:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 2 * d;
+                break;
+            case 16:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 3 * d;
+                break;
+            case 17:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 4 * d;
+                break;
+            case 18:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 5 * d;
+                break;
+            case 19:
+                mParams.leftMargin = 9 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 20:
+                mParams.leftMargin = 10 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 21:
+                mParams.leftMargin = 11 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 22:
+                mParams.leftMargin = 12 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 23:
+                mParams.leftMargin = 13 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 24:
+                mParams.leftMargin = 14 * d;
+                mParams.topMargin = top + 6 * d;
+                break;
+            case 25:
+                mParams.leftMargin = 14 * d;
+                mParams.topMargin = top + 7 * d;
+                break;
+            case 26:
+                mParams.leftMargin = 14 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 27:
+                mParams.leftMargin = 13 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 28:
+                mParams.leftMargin = 12 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 29:
+                mParams.leftMargin = 11 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 30:
+                mParams.leftMargin = 10 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 31:
+                mParams.leftMargin = 9 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 32:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 9 * d;
+                break;
+            case 33:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 10 * d;
+                break;
+            case 34:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 11 * d;
+                break;
+            case 35:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 12 * d;
+                break;
+            case 36:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 13 * d;
+                break;
+            case 37:
+                mParams.leftMargin = 8 * d;
+                mParams.topMargin = top + 14 * d;
+                break;
+            case 38:
+                mParams.leftMargin = 7 * d;
+                mParams.topMargin = top + 14 * d;
+                break;
+            case 39:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 14 * d;
+                break;
+            case 40:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 13 * d;
+                break;
+            case 41:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 12 * d;
+                break;
+            case 42:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 11 * d;
+                break;
+            case 43:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 10 * d;
+                break;
+            case 44:
+                mParams.leftMargin = 6 * d;
+                mParams.topMargin = top + 9 * d;
+                break;
+            case 45:
+                mParams.leftMargin = 5 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 46:
+                mParams.leftMargin = 4 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 47:
+                mParams.leftMargin = 3 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 48:
+                mParams.leftMargin = 2 * d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 49:
+                mParams.leftMargin = d;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 50:
+                mParams.leftMargin = 0;
+                mParams.topMargin = top + 8 * d;
+                break;
+            case 51:
+                mParams.leftMargin = 0;
+                mParams.topMargin = top + 7 * d;
+                break;
+            case 52:
+                mParams.leftMargin = 0;
+                mParams.topMargin = top + 6 * d;
+                break;
+        }
+        pp.setLayoutParams(mParams);
     }
 
 }
+
+
