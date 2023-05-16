@@ -176,16 +176,7 @@ public class Game extends Activity implements View.OnClickListener {
                 g3 = 0;
                 x7 = 14;
                 break;
-            case R.id.green4:
-                iv8.getLayoutParams().height = d;
-                iv8.getLayoutParams().width = d;
-                RelativeLayout.LayoutParams mParams4 = (RelativeLayout.LayoutParams) iv8.getLayoutParams();
-                mParams4.leftMargin = 11 * d + 3 * d / 2;
-                mParams4.topMargin = 2 * d + top + 3 * d / 2;
-                iv8.setLayoutParams(mParams4);
-                g4 = 0;
-                x8 = 14;
-                break;
+            
         }
     }
 
@@ -1204,6 +1195,306 @@ public class Game extends Activity implements View.OnClickListener {
                 break;
         }
         pp.setLayoutParams(mParams);
+    }
+    public void checkPosition(ImageView v) {
+        RelativeLayout.LayoutParams mP = (RelativeLayout.LayoutParams) v.getLayoutParams();
+        int b = v.getId();
+
+        if (b == R.id.red1 || b == R.id.red2 || b == R.id.red3 || b == R.id.red4) {
+            int lm1 = iv5.getLeft();
+            int tm1 = iv5.getTop();
+            if (lm1 == mP.leftMargin && tm1 == mP.topMargin) {
+                Fill2(iv5);
+            }
+
+            int lm2 = iv6.getLeft();
+            int tm2 = iv6.getTop();
+            if (lm2 == mP.leftMargin && tm2 == mP.topMargin) {
+                Fill2(iv6);
+            }
+
+            int lm3 = iv7.getLeft();
+            int tm3 = iv7.getTop();
+            if (lm3 == mP.leftMargin && tm3 == mP.topMargin) {
+                Fill2(iv7);
+            }
+
+            int lm4 = iv8.getLeft();
+            int tm4 = iv8.getTop();
+            if (lm4 == mP.leftMargin && tm4 == mP.topMargin) {
+                Fill2(iv8);
+            }
+
+            int lm5 = iv9.getLeft();
+            int tm5 = iv9.getTop();
+            if (lm5 == mP.leftMargin && tm5 == mP.topMargin) {
+                Fill3(iv9);
+            }
+
+            int lm6 = iv10.getLeft();
+            int tm6 = iv10.getTop();
+            if (lm6 == mP.leftMargin && tm6 == mP.topMargin) {
+                Fill3(iv10);
+            }
+
+            int lm7 = iv11.getLeft();
+            int tm7 = iv11.getTop();
+            if (lm7 == mP.leftMargin && tm7 == mP.topMargin) {
+                Fill3(iv11);
+            }
+
+            int lm8 = iv12.getLeft();
+            int tm8 = iv12.getTop();
+            if (lm8 == mP.leftMargin && tm8 == mP.topMargin) {
+                Fill3(iv12);
+            }
+
+            int lm9 = iv13.getLeft();
+            int tm9 = iv13.getTop();
+            if (lm9 == mP.leftMargin && tm9 == mP.topMargin) {
+                Fill4(iv13);
+            }
+
+            int lm10 = iv14.getLeft();
+            int tm10 = iv14.getTop();
+            if (lm10 == mP.leftMargin && tm10 == mP.topMargin) {
+                Fill4(iv14);
+            }
+
+            int lm11 = iv15.getLeft();
+            int tm11 = iv15.getTop();
+            if (lm11 == mP.leftMargin && tm11 == mP.topMargin) {
+                Fill4(iv15);
+            }
+
+            int lm12 = iv16.getLeft();
+            int tm12 = iv16.getTop();
+            if (lm12 == mP.leftMargin && tm12 == mP.topMargin) {
+                Fill4(iv16);
+            }
+
+        }
+        if (b == R.id.green1 || b == R.id.green2 || b == R.id.green3 || b == R.id.green4) {
+            int lm1 = iv1.getLeft();
+            int tm1 = iv1.getTop();
+            if (lm1 == mP.leftMargin && tm1 == mP.topMargin) {
+                Fill1(iv1);
+            }
+
+            int lm2 = iv2.getLeft();
+            int tm2 = iv2.getTop();
+            if (lm2 == mP.leftMargin && tm2 == mP.topMargin) {
+                Fill1(iv2);
+            }
+
+            int lm3 = iv3.getLeft();
+            int tm3 = iv3.getTop();
+            if (lm3 == mP.leftMargin && tm3 == mP.topMargin) {
+                Fill1(iv3);
+            }
+
+            int lm4 = iv4.getLeft();
+            int tm4 = iv4.getTop();
+            if (lm4 == mP.leftMargin && tm4 == mP.topMargin) {
+                Fill1(iv4);
+            }
+
+            int lm5 = iv9.getLeft();
+            int tm5 = iv9.getTop();
+            if (lm5 == mP.leftMargin && tm5 == mP.topMargin) {
+                Fill3(iv9);
+            }
+
+            int lm6 = iv10.getLeft();
+            int tm6 = iv10.getTop();
+            if (lm6 == mP.leftMargin && tm6 == mP.topMargin) {
+                Fill3(iv10);
+            }
+
+            int lm7 = iv11.getLeft();
+            int tm7 = iv11.getTop();
+            if (lm7 == mP.leftMargin && tm7 == mP.topMargin) {
+                Fill3(iv11);
+            }
+
+            int lm8 = iv12.getLeft();
+            int tm8 = iv12.getTop();
+            if (lm8 == mP.leftMargin && tm8 == mP.topMargin) {
+                Fill3(iv12);
+            }
+
+            int lm9 = iv13.getLeft();
+            int tm9 = iv13.getTop();
+            if (lm9 == mP.leftMargin && tm9 == mP.topMargin) {
+                Fill4(iv13);
+            }
+
+            int lm10 = iv14.getLeft();
+            int tm10 = iv14.getTop();
+            if (lm10 == mP.leftMargin && tm10 == mP.topMargin) {
+                Fill4(iv14);
+            }
+
+            int lm11 = iv15.getLeft();
+            int tm11 = iv15.getTop();
+            if (lm11 == mP.leftMargin && tm11 == mP.topMargin) {
+                Fill4(iv15);
+            }
+
+            int lm12 = iv16.getLeft();
+            int tm12 = iv16.getTop();
+            if (lm12 == mP.leftMargin && tm12 == mP.topMargin) {
+                Fill4(iv16);
+            }
+
+        }
+        if (b == R.id.blue1 || b == R.id.blue2 || b == R.id.blue3 || b == R.id.blue4) {
+            int lm1 = iv1.getLeft();
+            int tm1 = iv1.getTop();
+            if (lm1 == mP.leftMargin && tm1 == mP.topMargin) {
+                Fill1(iv1);
+            }
+
+            int lm2 = iv2.getLeft();
+            int tm2 = iv2.getTop();
+            if (lm2 == mP.leftMargin && tm2 == mP.topMargin) {
+                Fill1(iv2);
+            }
+
+            int lm3 = iv3.getLeft();
+            int tm3 = iv3.getTop();
+            if (lm3 == mP.leftMargin && tm3 == mP.topMargin) {
+                Fill1(iv3);
+            }
+
+            int lm4 = iv4.getLeft();
+            int tm4 = iv4.getTop();
+            if (lm4 == mP.leftMargin && tm4 == mP.topMargin) {
+                Fill1(iv4);
+            }
+
+            int lm5 = iv5.getLeft();
+            int tm5 = iv5.getTop();
+            if (lm5 == mP.leftMargin && tm5 == mP.topMargin) {
+                Fill2(iv5);
+            }
+
+            int lm6 = iv6.getLeft();
+            int tm6 = iv6.getTop();
+            if (lm6 == mP.leftMargin && tm6 == mP.topMargin) {
+                Fill2(iv6);
+            }
+
+            int lm7 = iv7.getLeft();
+            int tm7 = iv7.getTop();
+            if (lm7 == mP.leftMargin && tm7 == mP.topMargin) {
+                Fill2(iv7);
+            }
+
+            int lm8 = iv8.getLeft();
+            int tm8 = iv8.getTop();
+            if (lm8 == mP.leftMargin && tm8 == mP.topMargin) {
+                Fill2(iv8);
+            }
+
+            int lm9 = iv13.getLeft();
+            int tm9 = iv13.getTop();
+            if (lm9 == mP.leftMargin && tm9 == mP.topMargin) {
+                Fill4(iv13);
+            }
+
+            int lm10 = iv14.getLeft();
+            int tm10 = iv14.getTop();
+            if (lm10 == mP.leftMargin && tm10 == mP.topMargin) {
+                Fill4(iv14);
+            }
+
+            int lm11 = iv15.getLeft();
+            int tm11 = iv15.getTop();
+            if (lm11 == mP.leftMargin && tm11 == mP.topMargin) {
+                Fill4(iv15);
+            }
+
+            int lm12 = iv16.getLeft();
+            int tm12 = iv16.getTop();
+            if (lm12 == mP.leftMargin && tm12 == mP.topMargin) {
+                Fill4(iv16);
+            }
+
+
+        }
+        if (b == R.id.yellow1 || b == R.id.yellow2 || b == R.id.yellow3 || b == R.id.yellow4) {
+            int lm1 = iv1.getLeft();
+            int tm1 = iv1.getTop();
+            if (lm1 == mP.leftMargin && tm1 == mP.topMargin) {
+                Fill1(iv1);
+            }
+
+            int lm2 = iv2.getLeft();
+            int tm2 = iv2.getTop();
+            if (lm2 == mP.leftMargin && tm2 == mP.topMargin) {
+                Fill1(iv2);
+            }
+
+            int lm3 = iv3.getLeft();
+            int tm3 = iv3.getTop();
+            if (lm3 == mP.leftMargin && tm3 == mP.topMargin) {
+                Fill1(iv3);
+            }
+
+            int lm4 = iv4.getLeft();
+            int tm4 = iv4.getTop();
+            if (lm4 == mP.leftMargin && tm4 == mP.topMargin) {
+                Fill1(iv4);
+            }
+
+            int lm5 = iv5.getLeft();
+            int tm5 = iv5.getTop();
+            if (lm5 == mP.leftMargin && tm5 == mP.topMargin) {
+                Fill2(iv5);
+            }
+
+            int lm6 = iv6.getLeft();
+            int tm6 = iv6.getTop();
+            if (lm6 == mP.leftMargin && tm6 == mP.topMargin) {
+                Fill2(iv6);
+            }
+
+            int lm7 = iv7.getLeft();
+            int tm7 = iv7.getTop();
+            if (lm7 == mP.leftMargin && tm7 == mP.topMargin) {
+                Fill2(iv7);
+            }
+
+            int lm8 = iv8.getLeft();
+            int tm8 = iv8.getTop();
+            if (lm8 == mP.leftMargin && tm8 == mP.topMargin) {
+                Fill2(iv8);
+            }
+            int lm9 = iv9.getLeft();
+            int tm9 = iv9.getTop();
+            if (lm9 == mP.leftMargin && tm9 == mP.topMargin) {
+                Fill3(iv9);
+            }
+
+            int lm10 = iv10.getLeft();
+            int tm10 = iv10.getTop();
+            if (lm10 == mP.leftMargin && tm10 == mP.topMargin) {
+                Fill3(iv10);
+            }
+
+            int lm11 = iv11.getLeft();
+            int tm11 = iv11.getTop();
+            if (lm11 == mP.leftMargin && tm11 == mP.topMargin) {
+                Fill3(iv11);
+            }
+
+            int lm12 = iv12.getLeft();
+            int tm12 = iv12.getTop();
+            if (lm12 == mP.leftMargin && tm12 == mP.topMargin) {
+                Fill3(iv12);
+            }
+        }
     }
 
 }
